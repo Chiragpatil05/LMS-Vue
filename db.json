@@ -1,0 +1,628 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Smith",
+      "email": "instructor@example.com",
+      "password": "password123",
+      "role": "instructor",
+      "createdAt": "2023-01-15T08:30:00.000Z",
+      "avatar": "https://ui-avatars.com/api/?name=John+Smith&background=random"
+    },
+    {
+      "id": "2",
+      "name": "Sarah Johnson",
+      "email": "student@example.com",
+      "password": "password123",
+      "role": "student",
+      "createdAt": "2023-01-20T10:15:00.000Z",
+      "avatar": "https://ui-avatars.com/api/?name=Sarah+Johnson&background=random"
+    },
+    {
+      "id": "1748719745489",
+      "name": "Ashwin Gorle",
+      "email": "ashwingorle7777@gmail.com",
+      "password": "Qwerty@123",
+      "role": "student",
+      "createdAt": "2025-05-31T19:29:05.489Z",
+      "avatar": "https://ui-avatars.com/api/?name=Ashwin%20Gorle&background=random"
+    },
+    {
+      "id": "1748719798532",
+      "name": "chinese negi",
+      "email": "negi@gmail.com",
+      "password": "Qwerty@123",
+      "role": "student",
+      "createdAt": "2025-05-31T19:29:58.532Z",
+      "avatar": "https://ui-avatars.com/api/?name=chinese%20negi&background=random"
+    },
+    {
+      "id": "1748719895816",
+      "name": "Arpit Jhaatwal",
+      "email": "arpit@gamil.com",
+      "password": "Qwerty@123",
+      "role": "instructor",
+      "createdAt": "2025-05-31T19:31:35.816Z",
+      "avatar": "https://ui-avatars.com/api/?name=Arpit%20Jhaatwal&background=random"
+    },
+    {
+      "id": "1748762470064",
+      "name": "chiragcodes",
+      "email": "chirag.codes01@gmail.com",
+      "password": "123@Qwerty",
+      "role": "instructor",
+      "createdAt": "2025-06-01T07:21:10.064Z",
+      "avatar": "https://ui-avatars.com/api/?name=chiragcodes&background=random"
+    },
+    {
+      "id": "1748768371094",
+      "name": "Harsh-Student",
+      "email": "harshstudent@gmail.com",
+      "password": "Student@123",
+      "role": "student",
+      "createdAt": "2025-06-01T08:59:31.094Z",
+      "avatar": "https://ui-avatars.com/api/?name=Harsh-Student&background=random"
+    },
+    {
+      "id": "1748768426059",
+      "name": "Harsh-Teacher",
+      "email": "harshteacher@gmail.com",
+      "password": "Teacher@123",
+      "role": "instructor",
+      "createdAt": "2025-06-01T09:00:26.059Z",
+      "avatar": "https://ui-avatars.com/api/?name=Harsh-Teacher&background=random"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "title": "Web Development Fundamentals",
+      "description": "Learn the core fundamentals of web development, including HTML, CSS, and JavaScript. This course is perfect for beginners who want to start their journey in web development.",
+      "thumbnail": "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "category": "web-development",
+      "level": "beginner",
+      "price": 49.99,
+      "originalPrice": 99.99,
+      "status": "active",
+      "instructorId": "1",
+      "instructorName": "John Smith",
+      "instructorAvatar": "https://ui-avatars.com/api/?name=John+Smith&background=random",
+      "instructorTitle": "Senior Web Developer",
+      "instructorBio": "John has over 10 years of experience in web development and has worked with companies like Google and Facebook.",
+      "rating": 4.8,
+      "enrolled": 1250,
+      "createdAt": "2023-02-01T08:00:00.000Z",
+      "updatedAt": "2023-06-15T14:30:00.000Z",
+      "outcomes": [
+        "Build responsive websites using HTML and CSS",
+        "Create interactive web pages with JavaScript",
+        "Understand the fundamentals of web design",
+        "Deploy websites to the internet"
+      ],
+      "prerequisites": [
+        "Basic computer skills",
+        "No prior programming experience required"
+      ],
+      "lessons": [
+        {
+          "id": "1-1",
+          "title": "Introduction to HTML",
+          "description": "Learn the basics of HTML, including tags, elements, and document structure.",
+          "duration": "45 min",
+          "videoUrl": "https://example.com/videos/html-intro"
+        },
+        {
+          "id": "1-2",
+          "title": "CSS Fundamentals",
+          "description": "Understand how to style web pages using CSS selectors, properties, and values.",
+          "duration": "50 min",
+          "videoUrl": "https://example.com/videos/css-basics"
+        },
+        {
+          "id": "1-3",
+          "title": "JavaScript Basics",
+          "description": "Introduction to JavaScript programming for web development.",
+          "duration": "60 min",
+          "videoUrl": "https://example.com/videos/js-basics"
+        },
+        {
+          "id": "1-4",
+          "title": "Responsive Web Design",
+          "description": "Learn how to create websites that work well on all devices.",
+          "duration": "55 min",
+          "videoUrl": "https://example.com/videos/responsive-design"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Advanced JavaScript Programming",
+      "description": "Take your JavaScript skills to the next level with advanced concepts like closures, prototypes, async programming, and modern ES6+ features.",
+      "thumbnail": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "category": "web-development",
+      "level": "intermediate",
+      "price": 69.99,
+      "originalPrice": 129.99,
+      "status": "active",
+      "instructorId": "1",
+      "instructorName": "John Smith",
+      "instructorAvatar": "https://ui-avatars.com/api/?name=John+Smith&background=random",
+      "instructorTitle": "Senior Web Developer",
+      "instructorBio": "John has over 10 years of experience in web development and has worked with companies like Google and Facebook.",
+      "rating": 4.9,
+      "enrolled": 750,
+      "createdAt": "2023-02-15T09:30:00.000Z",
+      "updatedAt": "2023-07-01T11:45:00.000Z",
+      "outcomes": [
+        "Master advanced JavaScript concepts",
+        "Write clean, efficient, and maintainable code",
+        "Understand asynchronous programming",
+        "Build complex applications with modern JavaScript"
+      ],
+      "prerequisites": [
+        "Basic JavaScript knowledge",
+        "Understanding of HTML and CSS",
+        "Some programming experience"
+      ],
+      "lessons": [
+        {
+          "id": "2-1",
+          "title": "JavaScript Scope and Closures",
+          "description": "Understanding lexical scope, execution context, and closures in JavaScript.",
+          "duration": "65 min",
+          "videoUrl": "https://example.com/videos/js-closures"
+        },
+        {
+          "id": "2-2",
+          "title": "Prototypes and Inheritance",
+          "description": "Learn about the prototype chain and object-oriented programming in JavaScript.",
+          "duration": "70 min",
+          "videoUrl": "https://example.com/videos/js-prototypes"
+        },
+        {
+          "id": "2-3",
+          "title": "Asynchronous JavaScript",
+          "description": "Master callbacks, promises, and async/await for handling asynchronous operations.",
+          "duration": "80 min",
+          "videoUrl": "https://example.com/videos/js-async"
+        },
+        {
+          "id": "2-4",
+          "title": "Modern JavaScript (ES6+)",
+          "description": "Explore the latest JavaScript features and syntax improvements.",
+          "duration": "75 min",
+          "videoUrl": "https://example.com/videos/js-es6"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Mobile App Development with React Native",
+      "description": "Learn how to build native mobile applications for iOS and Android using React Native framework.",
+      "thumbnail": "https://images.pexels.com/photos/238480/pexels-photo-238480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "category": "mobile-development",
+      "level": "intermediate",
+      "price": 79.99,
+      "originalPrice": 149.99,
+      "status": "active",
+      "instructorId": "1",
+      "instructorName": "John Smith",
+      "instructorAvatar": "https://ui-avatars.com/api/?name=John+Smith&background=random",
+      "instructorTitle": "Senior Web Developer",
+      "instructorBio": "John has over 10 years of experience in web development and has worked with companies like Google and Facebook.",
+      "rating": 4.7,
+      "enrolled": 620,
+      "createdAt": "2023-03-10T10:15:00.000Z",
+      "updatedAt": "2023-07-20T13:20:00.000Z",
+      "outcomes": [
+        "Build cross-platform mobile apps with React Native",
+        "Understand mobile app architecture and navigation",
+        "Implement native device features",
+        "Deploy apps to app stores"
+      ],
+      "prerequisites": [
+        "JavaScript fundamentals",
+        "Basic React knowledge",
+        "Understanding of mobile app concepts"
+      ],
+      "lessons": [
+        {
+          "id": "3-1",
+          "title": "Getting Started with React Native",
+          "description": "Setting up your development environment and creating your first React Native app.",
+          "duration": "55 min",
+          "videoUrl": "https://example.com/videos/react-native-intro"
+        },
+        {
+          "id": "3-2",
+          "title": "Components and Styling",
+          "description": "Learn about React Native components and how to style them.",
+          "duration": "60 min",
+          "videoUrl": "https://example.com/videos/react-native-components"
+        },
+        {
+          "id": "3-3",
+          "title": "Navigation and Routing",
+          "description": "Implement navigation between screens in your React Native app.",
+          "duration": "65 min",
+          "videoUrl": "https://example.com/videos/react-native-navigation"
+        },
+        {
+          "id": "3-4",
+          "title": "Native Device Features",
+          "description": "Access camera, location, and other native device capabilities.",
+          "duration": "70 min",
+          "videoUrl": "https://example.com/videos/react-native-device-features"
+        }
+      ]
+    },
+    {
+      "title": "Spring Boot : zero to hero",
+      "description": "This is the advance spring backend course",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6M5DlzzI6Biv58-ZoEjyl2Qfs2aqtxlPUUQ&s",
+      "category": "web-development",
+      "level": "beginner",
+      "price": 500,
+      "originalPrice": 1000,
+      "status": "active",
+      "outcomes": [
+        "Core Java",
+        "Spring and spring boot",
+        "Projects"
+      ],
+      "prerequisites": [
+        "Core Java",
+        "Programming Logics"
+      ],
+      "lessons": [
+        {
+          "title": "Introduction to Java",
+          "description": "This is the first video to learn basics of core java",
+          "duration": "120 min",
+          "videoUrl": "https://youtu.be/UmnCZ7-9yDY?si=dFtg7YvhT2Y3Mg58"
+        }
+      ],
+      "id": "1748763359276",
+      "instructorId": "1748762470064",
+      "instructorName": "chiragcodes",
+      "instructorAvatar": "https://ui-avatars.com/api/?name=chiragcodes&background=random",
+      "rating": 0,
+      "enrolled": 1,
+      "createdAt": "2025-06-01T07:35:59.276Z",
+      "updatedAt": "2025-06-01T07:35:59.276Z"
+    },
+    {
+      "title": "Video Editing Course",
+      "description": "This is the video Editing Course",
+      "thumbnail": "https://sm.pcmag.com/pcmag_me/gallery/t/the-best-o/the-best-online-video-editors-for-2025_rjmd.jpg",
+      "category": "ui-ux-design",
+      "level": "advanced",
+      "price": 1200,
+      "originalPrice": 2400,
+      "status": "active",
+      "outcomes": [
+        "Video Editing",
+        "Color grading",
+        "Advance Typography"
+      ],
+      "prerequisites": [
+        "Familiar with video editing terminologies",
+        "Hands on experince in short editing"
+      ],
+      "lessons": [
+        {
+          "title": "How to start video editing without any knowledge",
+          "description": "This is the first video of this course",
+          "duration": "20 min",
+          "videoUrl": "https://www.youtube.com/watch?v=Y0izFme1AwI"
+        },
+        {
+          "title": "How to use VN video editing app",
+          "description": "Getting started with VN app",
+          "duration": "35 min",
+          "videoUrl": "https://www.youtube.com/watch?v=qQdcYdFM17k"
+        }
+      ],
+      "id": "1748764327098",
+      "instructorId": "1748719895816",
+      "instructorName": "Arpit Jhaatwal",
+      "instructorAvatar": "https://ui-avatars.com/api/?name=Arpit%20Jhaatwal&background=random",
+      "rating": 0,
+      "enrolled": 1,
+      "createdAt": "2025-06-01T07:52:07.098Z",
+      "updatedAt": "2025-06-01T07:52:37.463Z"
+    },
+    {
+      "title": "React JS Mastery Course",
+      "description": "This is the react js mastery course for beginners",
+      "thumbnail": "https://talent500.com/blog/wp-content/uploads/sites/42/2024/05/react-must-be-in-scope-when-using-jsx-scaled-1.jpg",
+      "category": "web-development",
+      "level": "beginner",
+      "price": 250,
+      "originalPrice": 500,
+      "status": "active",
+      "outcomes": [
+        "React JS",
+        "React State Management"
+      ],
+      "prerequisites": [
+        "JavaScript",
+        "html , css",
+        "Web techbnology"
+      ],
+      "lessons": [
+        {
+          "title": "Introduction to react js",
+          "description": "This is the first video of reactjs course",
+          "duration": "45 min",
+          "videoUrl": "https://youtu.be/-mJFZp84TIY?si=m8tqFx67MqWhu7eu"
+        }
+      ],
+      "id": "1748768589199",
+      "instructorId": "1748768426059",
+      "instructorName": "Harsh-Teacher",
+      "instructorAvatar": "https://ui-avatars.com/api/?name=Harsh-Teacher&background=random",
+      "rating": 0,
+      "enrolled": 1,
+      "createdAt": "2025-06-01T09:03:09.199Z",
+      "updatedAt": "2025-06-01T09:03:09.199Z"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "1",
+      "studentId": "2",
+      "courseId": "1",
+      "enrolledDate": "2023-02-10T14:30:00.000Z",
+      "progress": 75,
+      "completed": false
+    },
+    {
+      "id": "1748763402896",
+      "studentId": "1748719798532",
+      "courseId": "1748763359276",
+      "enrolledDate": "2025-06-01T07:36:42.896Z",
+      "progress": 0,
+      "completed": false
+    },
+    {
+      "id": "1748764407338",
+      "studentId": "1748719745489",
+      "courseId": "1748764327098",
+      "enrolledDate": "2025-06-01T07:53:27.338Z",
+      "progress": 0,
+      "completed": false
+    },
+    {
+      "id": "1748768608931",
+      "studentId": "1748768371094",
+      "courseId": "1748768589199",
+      "enrolledDate": "2025-06-01T09:03:28.931Z",
+      "progress": 0,
+      "completed": false
+    }
+  ],
+  "assignments": [
+    {
+      "id": "1",
+      "courseId": "1",
+      "title": "Build a Simple Webpage",
+      "description": "Create a responsive webpage using HTML and CSS that includes a navigation bar, hero section, and footer.",
+      "dueDate": "2023-08-15T23:59:59.000Z",
+      "totalPoints": 100,
+      "createdAt": "2023-07-01T10:00:00.000Z",
+      "submissions": [
+        {
+          "id": "1-1",
+          "studentId": "2",
+          "submissionDate": "2023-07-10T15:45:00.000Z",
+          "content": "https://github.com/student/assignment1",
+          "grade": 90,
+          "feedback": "Great work! Your design is clean and responsive. Consider adding more comments to your CSS."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "courseId": "1",
+      "title": "JavaScript Interactive Form",
+      "description": "Create a form with validation using JavaScript that collects user information and displays it in a formatted summary.",
+      "dueDate": "2023-08-30T23:59:59.000Z",
+      "totalPoints": 100,
+      "createdAt": "2023-07-15T11:30:00.000Z",
+      "submissions": []
+    },
+    {
+      "courseId": "1748763359276",
+      "title": "Assignment 1",
+      "description": "Core Java Assignment",
+      "dueDate": "2025-06-05T13:08",
+      "totalPoints": 100,
+      "id": "1748763553717",
+      "createdAt": "2025-06-01T07:39:13.717Z",
+      "submissions": [
+        {
+          "id": "1748763595051",
+          "studentId": "1748719798532",
+          "submissionDate": "2025-06-01T07:39:55.051Z",
+          "content": "https://www.interviewbit.com/java-interview-questions/"
+        }
+      ]
+    },
+    {
+      "courseId": "1748764327098",
+      "title": "Edit a short introduction video",
+      "description": "Record self introductory video and edit it",
+      "dueDate": "2025-06-03T13:24",
+      "totalPoints": 100,
+      "id": "1748764488431",
+      "createdAt": "2025-06-01T07:54:48.431Z",
+      "submissions": [
+        {
+          "id": "1748764506594",
+          "studentId": "1748719745489",
+          "submissionDate": "2025-06-01T07:55:06.594Z",
+          "content": "https://www.interviewbit.com/java-interview-questions/",
+          "feedback": "good work",
+          "grade": 60
+        }
+      ]
+    },
+    {
+      "courseId": "1748768589199",
+      "title": "Assignment-1",
+      "description": "assignment1",
+      "dueDate": "2025-06-02T14:33",
+      "totalPoints": 100,
+      "id": "1748768641122",
+      "createdAt": "2025-06-01T09:04:01.123Z",
+      "submissions": []
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "1",
+      "courseId": "1",
+      "title": "HTML Fundamentals Quiz",
+      "description": "Test your knowledge of HTML basics including tags, attributes, and document structure.",
+      "timeLimit": 30,
+      "totalPoints": 50,
+      "passingScore": 35,
+      "createdAt": "2023-07-05T09:15:00.000Z",
+      "questions": [
+        {
+          "id": "1-1",
+          "type": "multiple-choice",
+          "text": "Which tag is used to create a hyperlink?",
+          "options": [
+            "<link>",
+            "<a>",
+            "<href>",
+            "<url>"
+          ],
+          "correctAnswer": "<a>"
+        },
+        {
+          "id": "1-2",
+          "type": "multiple-choice",
+          "text": "Which HTML element defines the title of a document?",
+          "options": [
+            "<meta>",
+            "<title>",
+            "<header>",
+            "<head>"
+          ],
+          "correctAnswer": "<title>"
+        },
+        {
+          "id": "1-3",
+          "type": "true-false",
+          "text": "HTML stands for Hyper Text Markup Language.",
+          "correctAnswer": true
+        },
+        {
+          "id": "1-4",
+          "type": "multiple-choice",
+          "text": "Which HTML tag is used to define an unordered list?",
+          "options": [
+            "<ul>",
+            "<ol>",
+            "<li>",
+            "<list>"
+          ],
+          "correctAnswer": "<ul>"
+        },
+        {
+          "id": "1-5",
+          "type": "multiple-choice",
+          "text": "Which attribute is used to specify an alternate text for an image?",
+          "options": [
+            "src",
+            "alt",
+            "title",
+            "href"
+          ],
+          "correctAnswer": "alt"
+        }
+      ],
+      "attempts": [
+        {
+          "id": "1-1-1",
+          "studentId": "2",
+          "attemptDate": "2023-07-12T14:20:00.000Z",
+          "score": 40,
+          "answers": [
+            {
+              "questionId": "1-1",
+              "answer": "<a>"
+            },
+            {
+              "questionId": "1-2",
+              "answer": "<title>"
+            },
+            {
+              "questionId": "1-3",
+              "answer": true
+            },
+            {
+              "questionId": "1-4",
+              "answer": "<ul>"
+            },
+            {
+              "questionId": "1-5",
+              "answer": "title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseId": "1748763359276",
+      "title": "Quiz 1",
+      "description": "This is the quiz one",
+      "timeLimit": 30,
+      "totalPoints": 100,
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "1748763662460",
+          "type": "multiple-choice",
+          "text": "Which component of Java handles memory management",
+          "correctAnswer": "JVM",
+          "options": [
+            "JVM",
+            "JDK",
+            "Compiler"
+          ]
+        },
+        {
+          "id": "1748763709806",
+          "type": "true-false",
+          "text": "Is java purely object oriented programming language",
+          "correctAnswer": false
+        }
+      ],
+      "id": "1748763737009",
+      "createdAt": "2025-06-01T07:42:17.009Z",
+      "attempts": [
+        {
+          "id": "1748763749387",
+          "studentId": "1748719798532",
+          "attemptDate": "2025-06-01T07:42:29.387Z",
+          "score": 50,
+          "timeSpent": 5,
+          "answers": [
+            {
+              "questionId": "1748763662460",
+              "answer": "JVM"
+            },
+            {
+              "questionId": "1748763709806",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
