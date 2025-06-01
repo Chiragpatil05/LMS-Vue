@@ -167,7 +167,7 @@
           
           <div class="mt-4 flex justify-between items-center">
             <span class="text-primary-600 font-medium">
-              {{ course.price ? `$${course.price}` : 'Free' }}
+              {{ course.price ? `₹${course.price}` : 'Free' }}
             </span>
             
             <router-link :to="`/courses/${course.id}`" class="btn btn-primary py-1 px-3">

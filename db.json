@@ -37,15 +37,6 @@
       "avatar": "https://ui-avatars.com/api/?name=chinese%20negi&background=random"
     },
     {
-      "id": "1748719895816",
-      "name": "Arpit Jhaatwal",
-      "email": "arpit@gamil.com",
-      "password": "Qwerty@123",
-      "role": "instructor",
-      "createdAt": "2025-05-31T19:31:35.816Z",
-      "avatar": "https://ui-avatars.com/api/?name=Arpit%20Jhaatwal&background=random"
-    },
-    {
       "id": "1748762470064",
       "name": "chiragcodes",
       "email": "chirag.codes01@gmail.com",
@@ -257,82 +248,6 @@
       ]
     },
     {
-      "title": "Spring Boot : zero to hero",
-      "description": "This is the advance spring backend course",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6M5DlzzI6Biv58-ZoEjyl2Qfs2aqtxlPUUQ&s",
-      "category": "web-development",
-      "level": "beginner",
-      "price": 500,
-      "originalPrice": 1000,
-      "status": "active",
-      "outcomes": [
-        "Core Java",
-        "Spring and spring boot",
-        "Projects"
-      ],
-      "prerequisites": [
-        "Core Java",
-        "Programming Logics"
-      ],
-      "lessons": [
-        {
-          "title": "Introduction to Java",
-          "description": "This is the first video to learn basics of core java",
-          "duration": "120 min",
-          "videoUrl": "https://youtu.be/UmnCZ7-9yDY?si=dFtg7YvhT2Y3Mg58"
-        }
-      ],
-      "id": "1748763359276",
-      "instructorId": "1748762470064",
-      "instructorName": "chiragcodes",
-      "instructorAvatar": "https://ui-avatars.com/api/?name=chiragcodes&background=random",
-      "rating": 0,
-      "enrolled": 1,
-      "createdAt": "2025-06-01T07:35:59.276Z",
-      "updatedAt": "2025-06-01T07:35:59.276Z"
-    },
-    {
-      "title": "Video Editing Course",
-      "description": "This is the video Editing Course",
-      "thumbnail": "https://sm.pcmag.com/pcmag_me/gallery/t/the-best-o/the-best-online-video-editors-for-2025_rjmd.jpg",
-      "category": "ui-ux-design",
-      "level": "advanced",
-      "price": 1200,
-      "originalPrice": 2400,
-      "status": "active",
-      "outcomes": [
-        "Video Editing",
-        "Color grading",
-        "Advance Typography"
-      ],
-      "prerequisites": [
-        "Familiar with video editing terminologies",
-        "Hands on experince in short editing"
-      ],
-      "lessons": [
-        {
-          "title": "How to start video editing without any knowledge",
-          "description": "This is the first video of this course",
-          "duration": "20 min",
-          "videoUrl": "https://www.youtube.com/watch?v=Y0izFme1AwI"
-        },
-        {
-          "title": "How to use VN video editing app",
-          "description": "Getting started with VN app",
-          "duration": "35 min",
-          "videoUrl": "https://www.youtube.com/watch?v=qQdcYdFM17k"
-        }
-      ],
-      "id": "1748764327098",
-      "instructorId": "1748719895816",
-      "instructorName": "Arpit Jhaatwal",
-      "instructorAvatar": "https://ui-avatars.com/api/?name=Arpit%20Jhaatwal&background=random",
-      "rating": 0,
-      "enrolled": 1,
-      "createdAt": "2025-06-01T07:52:07.098Z",
-      "updatedAt": "2025-06-01T07:52:37.463Z"
-    },
-    {
       "title": "React JS Mastery Course",
       "description": "This is the react js mastery course for beginners",
       "thumbnail": "https://talent500.com/blog/wp-content/uploads/sites/42/2024/05/react-must-be-in-scope-when-using-jsx-scaled-1.jpg",
@@ -355,7 +270,7 @@
           "title": "Introduction to react js",
           "description": "This is the first video of reactjs course",
           "duration": "45 min",
-          "videoUrl": "https://youtu.be/-mJFZp84TIY?si=m8tqFx67MqWhu7eu"
+          "videoUrl": "https://youtu.be/4bhohxDQYGA?si=9kntjFxDI6BtwKOc"
         }
       ],
       "id": "1748768589199",
@@ -363,9 +278,9 @@
       "instructorName": "Harsh-Teacher",
       "instructorAvatar": "https://ui-avatars.com/api/?name=Harsh-Teacher&background=random",
       "rating": 0,
-      "enrolled": 1,
+      "enrolled": 2,
       "createdAt": "2025-06-01T09:03:09.199Z",
-      "updatedAt": "2025-06-01T09:03:09.199Z"
+      "updatedAt": "2025-06-01T13:23:17.427Z"
     }
   ],
   "enrollments": [
@@ -398,6 +313,14 @@
       "studentId": "1748768371094",
       "courseId": "1748768589199",
       "enrolledDate": "2025-06-01T09:03:28.931Z",
+      "progress": 0,
+      "completed": false
+    },
+    {
+      "id": "1748779055105",
+      "studentId": "1748719745489",
+      "courseId": "1748768589199",
+      "enrolledDate": "2025-06-01T11:57:35.105Z",
       "progress": 0,
       "completed": false
     }

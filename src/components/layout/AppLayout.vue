@@ -51,6 +51,18 @@
             </svg>
             Quizzes
           </router-link>
+
+        <router-link 
+          to="/profile" 
+          class="nav-link"
+          :class="{ 'bg-primary-50 text-primary-700': $route.path.includes('/profile') }"
+        >
+          <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A7.968 7.968 0 0112 15c2.042 0 3.893.76 5.303 2.004M15 10a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          Profile
+        </router-link>
+
         </nav>
       </div>
       

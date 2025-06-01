@@ -175,6 +175,7 @@
                     <div class="mt-4">
                       <button 
                         v-if="isEnrolled || isInstructor"
+                        @click="startLesson(index)"
                         class="btn btn-primary py-1 px-3"
                       >
                         Start Lesson
@@ -216,9 +217,9 @@
         <div class="lg:col-span-1">
           <div class="bg-white rounded-lg shadow-sm p-6 sticky top-6">
             <div class="text-center mb-4">
-              <span class="text-3xl font-bold text-gray-900">{{ course.price ? `$${course.price}` : 'Free' }}</span>
+              <span class="text-3xl font-bold text-gray-900">{{ course.price ? `₹${course.price}` : 'Free' }}</span>
               <p v-if="course.price && course.originalPrice" class="text-gray-500 line-through">
-                ${{ course.originalPrice }}
+                ₹{{ course.originalPrice }}
               </p>
             </div>
             
@@ -287,17 +288,29 @@
         </div>
       </div>
     </div>
+    
+    <LessonViewer
+      v-if="selectedLesson !== null"
+      :lesson="course.lessons[selectedLesson]"
+      :has-previous-lesson="selectedLesson > 0"
+      :has-next-lesson="selectedLesson < course.lessons.length - 1"
+      @close="selectedLesson = null"
+      @previous="selectedLesson--"
+      @next="selectedLesson++"
+    />
   </app-layout>
 </template>
 
 <script>
 import AppLayout from '../../components/layout/AppLayout.vue';
+import LessonViewer from '../../components/lessons/LessonViewer.vue';
 import axios from 'axios';
 
 export default {
   name: 'CourseDetails',
   components: {
-    AppLayout
+    AppLayout,
+    LessonViewer
   },
   data() {
     return {
@@ -308,7 +321,8 @@ export default {
       expandedLessons: [],
       expandAll: false,
       isEnrolled: false,
-      enrolling: false
+      enrolling: false,
+      selectedLesson: null
     };
   },
   computed: {
@@ -427,6 +441,9 @@ export default {
       } finally {
         this.enrolling = false;
       }
+    },
+    startLesson(index) {
+      this.selectedLesson = index;
     }
   },
   watch: {
